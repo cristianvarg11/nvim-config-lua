@@ -119,22 +119,22 @@ return {
                 },
                 img_dirs = { "img", "images", "assets", "static", "public", "media", "attachments", "Archives/All-Vault-Images/", "~/Library", "~/Downloads" },
             },
-            dashboard = {
-                enabled = true,
-                sections = {
-                    { section = "header" },
-                    { section = "keys",   gap = 1, padding = 1 },
-                    { section = "startup" },
-                    {
-                        section = "terminal",
-                        cmd = "ascii-image-converter ~/.config/nvim/dashboard-images/retro-1.jpg -C -c",
-                        random = 15,
-                        pane = 2,
-                        indent = 15,
-                        height = 20,
-                    },
-                },
-            },
+            -- dashboard = {
+            --     enabled = true,
+            --     sections = {
+            --         { section = "header" },
+            --         { section = "keys",   gap = 1, padding = 1 },
+            --         { section = "startup" },
+            --         {
+            --             section = "terminal",
+            --             cmd = "ascii-image-converter ~/.config/nvim/dashboard-images/retro-1.jpg -C -c",
+            --             random = 15,
+            --             pane = 2,
+            --             indent = 15,
+            --             height = 20,
+            --         },
+            --     },
+            -- },
         },
 
         -- KEYMAPS
